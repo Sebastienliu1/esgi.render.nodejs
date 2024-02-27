@@ -5,7 +5,7 @@ const router = express.Router()
 router.get('/', function (req, res, next) {
   res.render('index', {
     title: 'Cours d\'introduction au Cloud',
-    content: 'Ceci est une page quasi-vide',
+    content: 'Ceci est une page vide',
   })
 })
 
